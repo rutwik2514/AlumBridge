@@ -1,0 +1,30 @@
+#imgWrap{
+    position: relative;
+    margin: 0;
+}
+#profileImage{
+    display: block;
+    position: absolute;
+    height:  '10vh' !important;
+}
+@media(max-width: 1400px){
+    #imgWrap{
+        display: none;
+    }
+}
+@media(max-width: 769px){
+    #imgWrap{
+        display: none;
+    }
+    #helloDiv{
+        min-height: 15vh;
+    }
+   #robot{
+        display: none !important;
+   }
+   #noOfConnections{
+    border-right: none !important;
+    border-bottom: solid black !important;
+   }
+
+}

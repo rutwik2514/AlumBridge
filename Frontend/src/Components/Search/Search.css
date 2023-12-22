@@ -1,0 +1,15 @@
+
+@media (max-width: 1000px) {
+    .search-div{
+        flex-direction: column !important;
+        height: 25vh !important;
+    }
+    .input-div{
+        max-width: 50vw !important;
+        margin-bottom: 15px;
+    }
+    .btn-div{
+        height: 5vh !important;
+        min-width: 50vw !important;
+    }
+  }

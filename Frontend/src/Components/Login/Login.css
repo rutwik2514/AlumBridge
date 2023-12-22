@@ -1,0 +1,15 @@
+.animationDiv{
+    display: flex;
+    height: 100vh !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+@media (max-width: 1000px) {
+    .animationDiv{
+        display: none;
+    }
+    .loginmaindiv{
+        width: 100vw !important;
+        height: 100vh;
+    }
+}
